@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="" >
+        <div class="container">
+            <button class="btn" id="copyBtn">Copy</button>
+            <button class="btn" id="saveBtn">Save</button>
+            <button class="btn" id="lockBtn">Lock</button>
+            <button onclick="run()"; id="run">Run</button>
+            <div style=" margin-left: 60px; font-size: 22px; font-weight: bold; padding-top: 7px;">Choose the Background Color : </div>
+            <div class="btn" id="red"></div>
+            <div class="btn" id="green"></div>
+            <div class="btn" id="yellow"></div>
+            <div class="btn" id="purple"></div>
+            <div class="btn" id="gray"></div>
+            <div class="btn" id="aqua"></div> 
+            <div class="btn" id="blue"></div>
+        </div>
+
+           </div>
+
+    
+    <div  class="container">
+        <div id="box1" class="editor">
+            <h2>HTML</h2>
+            <textarea class="textarea1 textarea" name="" id="html" placeholder="code here......."></textarea>
+        </div>
+        <div id="box2" class="editor">
+            <h2>CSS</h2>
+            <textarea class="textarea2 textarea" name="" id="css" placeholder="code here......."></textarea>
+
+        </div>
+        <div id="box3" class="editor">
+            <h2>JS</h2>
+            <textarea class="textarea3 textarea" name="" id="js" placeholder="code here......."></textarea>
+
+        </div>
+    </div>
+    <div class="output">
+        <h1>Output</h1>
+        <iframe id="result" placeholder="output will be display here........."></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+button{
+    background-color: rgb(14, 221, 14); 
+    padding: 5px 8px;
+    width: 76px;
+     border: none;
+      font-weight: bold; 
+      color: aliceblue;
+       font-size: large; 
+       border-radius: 3px;
+       margin: 2px;
+}
+.btn{
+    background-color: rgb(68, 75, 68); 
+    width: 76px;
+    padding: 5px 8px;
+     border: none;
+      font-weight: bold; 
+      color: aliceblue;
+       font-size: large; 
+       border-radius: 3px;
+       margin: 2px;
+}
+.editor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ width: 100%;
+ background-color: rgb(9, 10, 90);
+border: 2px solid #ffffff;
+padding: 5px;
+}
+h2{
+    color: white;
+}
+.textarea{
+    width: 100%;
+    height: 300px;
+    background-color:lightcoral;
+}
+.output{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+iframe{
+    width: 100%;
+    overflow: scroll;
+    background-color: lightblue;
+    height: 600px;
+}
+#red{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    margin: 2px 4px;
+}#green{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(26, 212, 9);
+    margin: 2px 4px;
+
+}#yellow{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(249, 253, 4);
+    margin: 2px 4px;
+
+}#purple{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(233, 7, 203);
+    margin: 2px 4px;
+
+}#gray{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(153, 145, 145);
+    margin: 2px 4px;
+
+}#aqua{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(8, 237, 245);
+    margin: 2px 4px;
+
+}
+#blue{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(9, 10, 90);
+    margin: 2px 4px;
+
+}
